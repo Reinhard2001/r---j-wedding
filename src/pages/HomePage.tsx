@@ -7,8 +7,6 @@ import {
   VenueSection,
   DressCodeSection,
   InfoSection,
-  GiftSection,
-  GallerySection,
   ContactSection,
   Footer,
 } from '../components/organisms';

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heading, Text, Image } from "../atoms";
+import { Text, Image } from "../atoms";
 
 interface ImageCardProps {
   image: string;

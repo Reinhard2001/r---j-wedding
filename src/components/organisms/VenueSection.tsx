@@ -5,8 +5,6 @@ import mapLocation from "../../assets/map-location.png"
 export const VenueSection: React.FC = () => {
   const venueName = "La-Bita Events - Wedding Venue";
   const address = "Kenneth St, Boekenhoutkloof, Pretoria, 0030";
-  const lat = "-33.9249";
-  const lng = "18.4241";
 
   const handleCopyLink = () => {
     const mapLink = `https://www.google.com/maps/place/La-Bita+Events+Wedding+Venue/@-25.6966159,28.0398711,1293m/data=!3m1!1e3!4m14!1m7!3m6!1s0x1ebfd6bfa0cb16d3:0x7c8eb39b9da112f6!2sLa-Bita+Events+Wedding+Venue!8m2!3d-25.6976044!4d28.0405162!16s%2Fg%2F11c46f_bsx!3m5!1s0x1ebfd6bfa0cb16d3:0x7c8eb39b9da112f6!8m2!3d-25.6976044!4d28.0405162!16s%2Fg%2F11c46f_bsx?entry=ttu&g_ep=EgoyMDI1MTIwNy4wIKXMDSoASAFQAw%3D%3D`;
