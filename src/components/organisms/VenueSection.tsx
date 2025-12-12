@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Heading, Text, Button } from "../atoms";
 import mapLocation from "../../assets/map-location.png"
-import { useNavigate } from "@tanstack/react-router";
 
 export const VenueSection: React.FC = () => {
   const venueName = "La-Bita Events - Wedding Venue";

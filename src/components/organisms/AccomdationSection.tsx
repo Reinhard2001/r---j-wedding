@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heading, Text, Image } from "../atoms";
+import { Heading, Image } from "../atoms";
 import accomodationImage from "../../assets/accommodation-image.jpg";
 
 export const AccomdationSection: React.FC = () => {
