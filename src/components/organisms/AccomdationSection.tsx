@@ -24,7 +24,7 @@ export const AccomdationSection: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             whileHover={{ translateY: -5 }}
-            className="relative w-full h-[550px] md:h-full rounded-xl overflow-hidden shadow-lg"
+            className="relative w-full h-full w-full rounded-xl overflow-hidden shadow-lg"
           >
             <Image
               src={accomodationImage}
