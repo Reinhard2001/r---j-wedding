@@ -18,6 +18,9 @@ export const Navigation: React.FC = () => {
     { name: 'Ons Verhaal', href: '/#story' },
     { name: 'Venue', href: '/#venue' },
     { name: 'Program', href: '/#schedule' },
+    { name: 'Kleredrag', href: '/#dress-code' },
+    { name: 'Inligting', href: '/#info' },
+    { name: 'Akkomodasie', href: '/#accomodation' },
   ];
 
   return (

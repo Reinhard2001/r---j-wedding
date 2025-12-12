@@ -60,7 +60,7 @@ export const HomePage: React.FC = () => {
         <InfoSection />
       </section>
 
-      <section id="info" className="scroll-mt-20">
+      <section id="accomodation" className="scroll-mt-20">
         <AccomdationSection />
       </section>
 
