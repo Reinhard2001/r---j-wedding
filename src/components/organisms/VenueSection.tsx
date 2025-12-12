@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Heading, Text, Button } from "../atoms";
 import mapLocation from "../../assets/map-location.png"
+import { useNavigate } from "@tanstack/react-router";
 
 export const VenueSection: React.FC = () => {
   const venueName = "La-Bita Events - Wedding Venue";
@@ -14,15 +15,7 @@ export const VenueSection: React.FC = () => {
 
   const handleShareLocation = () => {
     const mapLink = `https://www.google.com/maps/place/La-Bita+Events+Wedding+Venue/@-25.6966159,28.0398711,1293m/data=!3m1!1e3!4m14!1m7!3m6!1s0x1ebfd6bfa0cb16d3:0x7c8eb39b9da112f6!2sLa-Bita+Events+Wedding+Venue!8m2!3d-25.6976044!4d28.0405162!16s%2Fg%2F11c46f_bsx!3m5!1s0x1ebfd6bfa0cb16d3:0x7c8eb39b9da112f6!8m2!3d-25.6976044!4d28.0405162!16s%2Fg%2F11c46f_bsx?entry=ttu&g_ep=EgoyMDI1MTIwNy4wIKXMDSoASAFQAw%3D%3D`;
-    if (navigator.share) {
-      navigator.share({
-        title: "Wedding Venue",
-        text: venueName,
-        url: mapLink,
-      });
-    } else {
-      window.open(mapLink, "_blank");
-    }
+    window.open(mapLink, "_blank");
   };
 
   return (
@@ -56,17 +49,15 @@ export const VenueSection: React.FC = () => {
                 📍 {address}
               </Text>
               <Text size="lg" weight="semibold" className="mb-6">
-                🕐 Donderdag, 26 Februarie 2026 - 14:00
+                🕐 Donderdag, 26 Februarie 2026 (14:00 - 23:00)
               </Text>
               <Text
                 size="base"
                 color="secondary"
                 className="leading-relaxed mb-8"
               >
-                La-Bita Events is ’n rustige, prentjiemooi trouplek naby
-                Pretoria. Dit het mooi tuine, ’n gesellige kapel en ’n warm,
-                intieme atmosfeer wat die hele plek elegant en besonders laat
-                voel. Gratis parkeering beskikbaar.
+                Sluit by ons aan by La-Bita, waar die berge en natuurskoon
+                die perfekte agtergrond bied vir ons dag vol liefde en vreugde.
               </Text>
             </div>
 

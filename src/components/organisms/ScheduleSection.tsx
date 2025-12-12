@@ -8,7 +8,7 @@ export const ScheduleSection: React.FC = () => {
       time: "14:00",
       title: "Gaste Aankoms",
       description:
-        "Verwelkom by die ontvangshuis. Geniet verversings en geselskap.",
+        "Almal kom na die venue. Groet en geniet die geselskap.",
     },
     {
       time: "15:00 - 15:45",
@@ -19,7 +19,7 @@ export const ScheduleSection: React.FC = () => {
       time: "15:50 - 17:30",
       title: "Cocktail hour + Snacks + Foto's",
       description:
-        "Geniet ligte happies en drankies terwyl fotos geneem word en gaste saam kuier.",
+        "Geniet ligte happies en drankies terwyl foto's geneem word en gaste saam kuier.",
     },
     {
       time: "17:45 - 19:30",
@@ -29,7 +29,7 @@ export const ScheduleSection: React.FC = () => {
     },
     {
       time: "19:30",
-      title: "Eerste Daans + Pa & Dogter Dans",
+      title: "Eerste Dans + Pa & Dogter Dans",
       description:
         "Reinhard en Janita se eerste dans as man en vrou, gevolg deur die pa & dogter dans.",
     },
@@ -37,16 +37,16 @@ export const ScheduleSection: React.FC = () => {
       time: "20:00",
       title: "Cake cutting & dessert",
       description:
-        "Sny die koek aan en geniet soet lekkernye saam met jou mense.",
+        "Sny van koek en geniet die nagereg saam ons mense.",
     },
     {
-      time: "20:30 - 11:00",
+      time: "20:30 - 23:00",
       title: "PARTY!!!",
       description:
         "Dans die aand weg! Musiek, lag en viering van liefde en vriendskap.",
     },
     {
-      time: "11:00+",
+      time: "23:00+",
       title: "Couple send off",
       description:
         "Wens die paartjie geluk terwyl hulle vertrek vir hul nuwe avontuur saam.",

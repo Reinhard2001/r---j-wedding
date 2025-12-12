@@ -30,7 +30,7 @@ export const DressCodeSection: React.FC = () => {
               Formeel
             </h3>
             <Text size="lg" color="secondary" className="leading-relaxed mb-4">
-              Ons versoek om formeel aan te tree. Dit is 'n spesiale aand en ons wil dit mooi maak.
+              Ons versoek om formeel aan te tree. Dit is 'n spesiale aand.
             </Text>
             <ul className="space-y-2">
               <Text size="base">👔 Vir Mans: Formele Pak, das is nie nodig nie.</Text>

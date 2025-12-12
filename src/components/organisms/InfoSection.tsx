@@ -11,13 +11,23 @@ export const InfoSection: React.FC = () => {
     },
     {
       icon: '➕',
-      title: 'Plus-Een Welkom',
+      title: 'Metgesel Welkom',
       description: 'Jy kan \'n metgesel bring. Asseblief RSVP teen einde Januarie.',
     },
     {
       icon: '🎉',
       title: 'Addisionele Versoeke',
       description: 'Het jy enige addisionele versoeke? Laat asseblief ASAP!',
+    },
+    {
+      icon: '💰',
+      title: 'Kontant Kroeg',
+      description: 'Koop slegs drankies by venue kroeg.',
+    },
+    {
+      icon: '🚗',
+      title: 'Gratis Parkering',
+      description: 'Gratis parkering want liefde kos genoeg.',
     },
   ];
 

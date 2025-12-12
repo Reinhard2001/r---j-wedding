@@ -45,7 +45,6 @@ export const StorySection: React.FC = () => {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
           className="space-y-16"
         >
           <motion.div className="text-center mb-12">

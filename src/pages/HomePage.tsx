@@ -9,6 +9,7 @@ import {
   InfoSection,
   ContactSection,
   Footer,
+  AccomdationSection,
 } from '../components/organisms';
 import handsImage from '../assets/hands-image.jpg';
 
@@ -57,6 +58,10 @@ export const HomePage: React.FC = () => {
 
       <section id="info" className="scroll-mt-20">
         <InfoSection />
+      </section>
+
+      <section id="info" className="scroll-mt-20">
+        <AccomdationSection />
       </section>
 
       <section id="contact" className="scroll-mt-20">
